@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Launch Screen View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" customClass="LaunchScreenViewController" customModule="PPASBOOK" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="QOR-5Z-sPn">
+                                <rect key="frame" x="-8" y="0.0" width="409" height="852"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="YKV-rV-QfC">
+                                <rect key="frame" x="59" y="288" width="275" height="276"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="YKV-rV-QfC" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="GYb-zy-8hz"/>
+                            <constraint firstItem="QOR-5Z-sPn" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leadingMargin" constant="-24" id="HIg-uU-Qtg"/>
+                            <constraint firstItem="YKV-rV-QfC" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="59" id="OrH-jU-m4Q"/>
+                            <constraint firstItem="QOR-5Z-sPn" firstAttribute="centerY" secondItem="YKV-rV-QfC" secondAttribute="centerY" id="a7U-3e-KMT"/>
+                            <constraint firstItem="YKV-rV-QfC" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="iWV-yK-cRd"/>
+                            <constraint firstItem="YKV-rV-QfC" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="229" id="krA-il-Pyb"/>
+                            <constraint firstItem="QOR-5Z-sPn" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="topMargin" constant="-59" id="nrU-4r-Tmb"/>
+                            <constraint firstItem="QOR-5Z-sPn" firstAttribute="centerX" secondItem="YKV-rV-QfC" secondAttribute="centerX" id="y2u-iS-r5j"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="Logo" destination="YKV-rV-QfC" id="Ed8-Wk-iTk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130.53435114503816" y="-34.507042253521128"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background" width="562.5" height="1218"/>
+        <image name="logo" width="512" height="512"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
