@@ -36,7 +36,7 @@ class LoginViewController: UIViewController {
         }
         
         guard isNumeric(noic) else {
-            showAlert(message: "Nombor IC mesti hanya mengandungi nombor.")
+            showAlert(message: "Nombor IC mesti mengandungi nombor sahaja.")
             return
         }
 
