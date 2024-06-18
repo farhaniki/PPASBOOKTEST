@@ -31,7 +31,7 @@ class LoginViewController: UIViewController {
     @IBAction func loginTapped(_ sender: UIButton) {
         guard let noic = noicTextField.text, !noic.isEmpty,
               let password = passwordTextField.text, !password.isEmpty else {
-            showAlert(message: "Sila isi semua ruangan.")
+            showAlert(message: "Sila isi semua maklumat.")
             return
         }
         
