@@ -41,7 +41,7 @@ class LoginViewController: UIViewController {
         }
 
         // Example login check
-        if noic == "040401100229" && password == "SyapuL04" {
+        if noic == "040401100229" && password == "ACHONG" {
             showAlert(message: "Login Berjaya!", isError: false)
             // Menunda pemanggilan performSegue selama 2 detik
             DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
