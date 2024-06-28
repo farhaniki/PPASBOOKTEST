@@ -52,7 +52,7 @@
                                     <color key="baseBackgroundColor" red="0.31764706970000001" green="0.69019609689999994" blue="0.68627452850000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="mrx-dh-pfI" kind="presentation" modalPresentationStyle="fullScreen" id="1Dx-Lr-Zsc"/>
+                                    <action selector="newUserTapped:" destination="NsL-qf-fv1" eventType="touchUpInside" id="Fl9-79-mn1"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sAw-8A-Rdm">
@@ -97,6 +97,7 @@
                     <connections>
                         <outlet property="alertLabel" destination="Ev7-7F-ARd" id="3Rl-hv-3Rl"/>
                         <outlet property="loginButton" destination="sAw-8A-Rdm" id="ZPF-ZZ-4f5"/>
+                        <outlet property="newUser" destination="o87-IT-rNW" id="GUl-D2-UJR"/>
                         <outlet property="noicTextField" destination="ynh-yh-5ZG" id="3bI-AM-e6C"/>
                         <outlet property="passwordTextField" destination="x6u-fo-IJo" id="yqf-pf-61i"/>
                         <segue destination="WnQ-eL-x6m" kind="presentation" identifier="goToMainPage" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="fe0-EM-V9w"/>
@@ -114,7 +115,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oOt-4w-xia" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2897" y="-316"/>
+            <point key="canvasLocation" x="2894" y="71"/>
         </scene>
         <!--MainPage-->
         <scene sceneID="qnE-eM-b2O">
@@ -124,7 +125,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QzD-h2-WZb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2897" y="-351"/>
+            <point key="canvasLocation" x="2895" y="-332"/>
         </scene>
         <!--Item-->
         <scene sceneID="Vuz-R1-xaJ">

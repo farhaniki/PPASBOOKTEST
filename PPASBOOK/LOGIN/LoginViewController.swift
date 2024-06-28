@@ -6,6 +6,7 @@ class LoginViewController: UIViewController {
     @IBOutlet var passwordTextField: UITextField!
     @IBOutlet var loginButton: UIButton!
     @IBOutlet var alertLabel: UILabel!
+    @IBOutlet var newUser: UIButton!
     
     var alertMessage: String?
 
@@ -49,6 +50,12 @@ class LoginViewController: UIViewController {
             }
         } else {
             showAlert(message: "NoIC atau Kata Laluan tidak sah.")
+        }
+    }
+    
+    @IBAction func newUserTapped(_ sender: UIButton) {
+        if let url = URL(string: "http://opac.ppas.gov.my:8080/wicket/bookmarkable/com.vtls.chamo.webapp.component.patron.PatronRegistrationPage?theme=ppas_chamo") {
+            UIApplication.shared.open(url, options: [:], completionHandler: nil)
         }
     }
     
