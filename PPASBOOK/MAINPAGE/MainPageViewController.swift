@@ -6,17 +6,9 @@ class MainPageViewController: UIViewController, UICollectionViewDataSource, UICo
     let cellIdentifier = "MyCell"
     let data = ["slide1", "slide2", "slide3", "slide4", "slide5"]
     var imageSizes: [CGSize] = []
-
-    @IBOutlet var fasiliti: UIButton!
-    @IBOutlet var pinjaman: UIButton!
-    @IBOutlet var kelas: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        fasiliti.clipToB()
-        pinjaman.clipToB()
-        kelas.clipToB()
 
         // Mengisi array imageSizes dengan ukuran gambar
         for imageName in data {
@@ -32,8 +24,12 @@ class MainPageViewController: UIViewController, UICollectionViewDataSource, UICo
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .horizontal
 
+        // Mengatur tinggi dan posisi collectionView di bagian bawah
+        let collectionViewHeight: CGFloat = 500
+        let collectionViewY = view.frame.height - collectionViewHeight  // Menghitung nilai y
+        
         // Membuat collectionView dengan layout yang sudah dibuat
-        collectionView = UICollectionView(frame: CGRect(x: 0, y: 200, width: view.frame.width, height: 200), collectionViewLayout: layout)
+        collectionView = UICollectionView(frame: CGRect(x: 0, y: collectionViewY, width: view.frame.width, height: collectionViewHeight), collectionViewLayout: layout)
         collectionView.backgroundColor = .white
         collectionView.dataSource = self
         collectionView.delegate = self
@@ -86,13 +82,5 @@ class MyCustomCollectionViewCell: UICollectionViewCell {
     override func layoutSubviews() {
         super.layoutSubviews()
         imageView.frame = contentView.bounds
-    }
-}
-    
-extension UIButton {
-    func clipToB() {
-        self.layoutIfNeeded()
-        self.layer.cornerRadius =
-        self.frame.height / 10
     }
 }
