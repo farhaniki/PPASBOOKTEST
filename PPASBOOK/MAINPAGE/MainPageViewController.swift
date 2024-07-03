@@ -208,6 +208,7 @@ class MyCustomCollectionViewCell: UICollectionViewCell {
         super.layoutSubviews()
         button.frame = contentView.bounds
     }
+    
 }
 
 // Extensions for UIView and UIButton
