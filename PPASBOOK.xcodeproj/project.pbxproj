@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3DE50DB92C378CBC00DB2D78 /* Location.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DE50DB82C378CBC00DB2D78 /* Location.storyboard */; };
+		3DE50DBB2C3790AC00DB2D78 /* DistrictCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE50DBA2C3790AC00DB2D78 /* DistrictCollectionViewCell.swift */; };
 		7C271BDA2C350FAD00050986 /* Fasiliti.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C271BD92C350FAD00050986 /* Fasiliti.storyboard */; };
 		7C271BDC2C350FF400050986 /* FasilitiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C271BDB2C350FF400050986 /* FasilitiViewController.swift */; };
 		7CCC80962C1F50800092F741 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCC80952C1F50800092F741 /* RegisterViewController.swift */; };
@@ -23,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3DE50DB82C378CBC00DB2D78 /* Location.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Location.storyboard; sourceTree = "<group>"; };
+		3DE50DBA2C3790AC00DB2D78 /* DistrictCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistrictCollectionViewCell.swift; sourceTree = "<group>"; };
 		7C271BD92C350FAD00050986 /* Fasiliti.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Fasiliti.storyboard; sourceTree = "<group>"; };
 		7C271BDB2C350FF400050986 /* FasilitiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FasilitiViewController.swift; sourceTree = "<group>"; };
 		7CCC80952C1F50800092F741 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +55,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3DE50DB72C378C8400DB2D78 /* LOCATION */ = {
+			isa = PBXGroup;
+			children = (
+				3DE50DB82C378CBC00DB2D78 /* Location.storyboard */,
+				3DE50DBA2C3790AC00DB2D78 /* DistrictCollectionViewCell.swift */,
+			);
+			path = LOCATION;
+			sourceTree = "<group>";
+		};
 		7C271BD82C3503A300050986 /* FASILITI */ = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +137,7 @@
 				7CCC80BF2C1FD9EA0092F741 /* REGISTER */,
 				7CCC80FD2C2142300092F741 /* MAINPAGE */,
 				7C271BD82C3503A300050986 /* FASILITI */,
+				3DE50DB72C378C8400DB2D78 /* LOCATION */,
 			);
 			path = PPASBOOK;
 			sourceTree = "<group>";
@@ -190,6 +204,7 @@
 				7CDA7B872C129730002F7C0B /* Base in Resources */,
 				7CCC80FF2C2142560092F741 /* MainPage.storyboard in Resources */,
 				7CCC80ED2C2132770092F741 /* LaunchScreen.storyboard in Resources */,
+				3DE50DB92C378CBC00DB2D78 /* Location.storyboard in Resources */,
 				7CCC80C12C1FDA210092F741 /* Register.storyboard in Resources */,
 				7C271BDA2C350FAD00050986 /* Fasiliti.storyboard in Resources */,
 			);
@@ -202,6 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DE50DBB2C3790AC00DB2D78 /* DistrictCollectionViewCell.swift in Sources */,
 				7CCC81012C2142680092F741 /* MainPageViewController.swift in Sources */,
 				7C271BDC2C350FF400050986 /* FasilitiViewController.swift in Sources */,
 				7CCC80982C1F51050092F741 /* LoginViewController.swift in Sources */,
