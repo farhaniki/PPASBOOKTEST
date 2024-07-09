@@ -86,6 +86,9 @@
                                 <buttonConfiguration key="configuration" style="gray" title="FILTER">
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="filterButtonTapped:" destination="7rN-Ba-Cko" eventType="touchUpInside" id="w00-2v-pA5"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="czp-9z-B83">
                                 <rect key="frame" x="168" y="174" width="99" height="35"/>
@@ -95,6 +98,9 @@
                                     <fontDescription key="titleFontDescription" type="system" pointSize="12"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="buttonFBTapped:" destination="7rN-Ba-Cko" eventType="touchUpInside" id="ASd-mk-4wc"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tdi-HU-aTm">
                                 <rect key="frame" x="275" y="174" width="102" height="35"/>
@@ -104,6 +110,9 @@
                                     <fontDescription key="titleFontDescription" type="system" pointSize="12"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="buttonPMTapped:" destination="7rN-Ba-Cko" eventType="touchUpInside" id="ydJ-VB-ni6"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="XyC-rS-7LF"/>
@@ -112,6 +121,9 @@
                     <navigationItem key="navigationItem" id="YlY-Jr-cAk" userLabel="Location : Tun Raja Uda"/>
                     <connections>
                         <outlet property="backButton" destination="S7C-7I-C1Y" id="7ZD-NE-V3g"/>
+                        <outlet property="buttonFB" destination="czp-9z-B83" id="Pfj-5z-dco"/>
+                        <outlet property="buttonFilter" destination="WfG-ar-gvZ" id="2CH-jr-qaF"/>
+                        <outlet property="buttonPM" destination="tdi-HU-aTm" id="CLT-eZ-3pF"/>
                         <outlet property="collectionView" destination="GsI-wC-3sH" id="RA4-LN-x3G"/>
                         <outlet property="searchBar" destination="KVW-1T-b80" id="DAf-iP-FSM"/>
                     </connections>
