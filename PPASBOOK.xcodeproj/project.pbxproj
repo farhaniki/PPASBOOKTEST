@@ -22,6 +22,7 @@
 		7CDA7B822C129730002F7C0B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA7B812C129730002F7C0B /* SceneDelegate.swift */; };
 		7CDA7B872C129730002F7C0B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7CDA7B862C129730002F7C0B /* Base */; };
 		7CDA7B892C129731002F7C0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CDA7B882C129731002F7C0B /* Assets.xcassets */; };
+		7CF322162C3CC97600877517 /* Pinjaman.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CF322152C3CC97600877517 /* Pinjaman.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		7CDA7B862C129730002F7C0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7CDA7B882C129731002F7C0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CDA7B8D2C129731002F7C0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CF322152C3CC97600877517 /* Pinjaman.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Pinjaman.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,8 +140,17 @@
 				7CCC80FD2C2142300092F741 /* MAINPAGE */,
 				7C271BD82C3503A300050986 /* FASILITI */,
 				3DE50DB72C378C8400DB2D78 /* LOCATION */,
+				7CF322142C3CC95500877517 /* PINJAMAN */,
 			);
 			path = PPASBOOK;
+			sourceTree = "<group>";
+		};
+		7CF322142C3CC95500877517 /* PINJAMAN */ = {
+			isa = PBXGroup;
+			children = (
+				7CF322152C3CC97600877517 /* Pinjaman.storyboard */,
+			);
+			path = PINJAMAN;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +211,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CF322162C3CC97600877517 /* Pinjaman.storyboard in Resources */,
 				7CDA7B892C129731002F7C0B /* Assets.xcassets in Resources */,
 				7CDA7B872C129730002F7C0B /* Base in Resources */,
 				7CCC80FF2C2142560092F741 /* MainPage.storyboard in Resources */,
