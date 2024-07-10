@@ -159,11 +159,13 @@ class FasilitiViewController: UIViewController {
     @IBAction func buttonFBTapped(_ sender: UIButton) {
         // Toggle background color on tap
         buttonFB.backgroundColor = buttonFB.backgroundColor == .systemTeal ? .clear : .systemTeal
+        buttonPM.backgroundColor = .clear // Deselect buttonPM when buttonFB is selected
     }
 
     @IBAction func buttonPMTapped(_ sender: UIButton) {
         // Toggle background color on tap
         buttonPM.backgroundColor = buttonPM.backgroundColor == .systemTeal ? .clear : .systemTeal
+        buttonFB.backgroundColor = .clear // Deselect buttonFB when buttonPM is selected
     }
 
     private func configureButtonShadows() {
