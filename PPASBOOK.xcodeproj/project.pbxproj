@@ -81,6 +81,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32FE75912C3E34150093FF31 /* PROFILES */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PROFILES;
+			sourceTree = "<group>";
+		};
 		3DE50E432C3D19DF00DB2D78 /* LOCATION */ = {
 			isa = PBXGroup;
 			children = (
@@ -166,6 +173,7 @@
 				7CCC81062C21659F0092F741 /* LOGIN */,
 				7CCC80BF2C1FD9EA0092F741 /* REGISTER */,
 				7CCC80FD2C2142300092F741 /* MAINPAGE */,
+				32FE75912C3E34150093FF31 /* PROFILES */,
 				7C271BD82C3503A300050986 /* FASILITI */,
 				3DE50E432C3D19DF00DB2D78 /* LOCATION */,
 				7CF322142C3CC95500877517 /* PINJAMAN */,
